@@ -149,5 +149,46 @@ export const styles = StyleSheet.create({
         letterSpacing:1,
         fontWeight:'600'
     },
+    iletisimContainer:{
+        flex:1,
+        justifyContent:'center',
+        alignContent:'center',
+        alignItems:'center',
+        backgroundColor:'#c1c1c1'
+    },
+    iletisimButton:{
+        height:80,
+        width:'80%',
+        flexDirection:'row',
+        backgroundColor:colorBlue,
+        justifyContent:'space-between',
+        padding:10,
+        margin:10,
+        borderRadius:50,
+        borderWidth:2,
+        borderColor:'#ffff'
+    },
+    iletisimIconSection:{
+       height:60,
+       width:60,
+       backgroundColor:colorOrange,
+       alignItems:'center',
+       justifyContent:'center',
+       borderRadius:40,
+       borderWidth:1,
+       borderColor:'#fff'
+
+    },
+    iletisimButtonTextSection:{
+        flex:1,
+        margin:0,
+        justifyContent:'center',
+        marginLeft:10
+    },
+    iletisimButtonText:{
+        fontSize:24,
+        color:'#fff'
+    }
+
    
   });
