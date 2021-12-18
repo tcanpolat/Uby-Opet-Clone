@@ -36,3 +36,13 @@ npm restart
 #0271cd
 #e0bc18
 #0056e1
+
+## Rename APP
+https://www.npmjs.com/package/react-native-rename
+
+npm install react-native-rename -g
+
+git checkout -b rename-app
+
+npx react-native-rename "Opet"
+
