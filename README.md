@@ -46,3 +46,16 @@ git checkout -b rename-app
 
 npx react-native-rename "Opet"
 
+##Splash Screen
+https://github.com/bamlab/generator-rn-toolbox/blob/master/generators/assets/README.md
+
+cmd yönetici olarak çalıştır 
+
+yo rn-toolbox:assets --splash splash.psd --android
+
+##App Icon
+launcher icon generator
+
+https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html#foreground.type=clipart&foreground.clipart=android&foreground.space.trim=1&foreground.space.pad=0.25&foreColor=rgba(96%2C%20125%2C%20139%2C%200)&backColor=rgb(68%2C%20138%2C%20255)&crop=0&backgroundShape=circle&effects=none&name=ic_launcher
+
+
